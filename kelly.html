@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 
-    <link rel="shortcut icon" href="Imagem cilios/Logo-marca.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="Imagem cilios/logo-marca.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
 
@@ -18,19 +18,20 @@
         <img src="Imagem cilios/logo-marca.png" alt="">
         <nav>
             <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()"> menu</i>
-           <menu id="itens">
+            <menu class="itens">
                 <ul class="flex">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#Sobre nos">Sobre Nós</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
-            </menu>   
+            </menu>
         </nav>
     </header>
 
-    <div class="hero">
+    <div class="logo">
         <img src="Imagem cilios/imagem-marca.png" alt="">
     </div>
+
     <section class="ceo" id="Sobre nos">
         <h5>Realce a beleza do seu olhar com a especialista em extensão de cílios fio a fio e maquiagem personalizada!</h5>
         <p>Também sou apaixonada por realçar a beleza natural com design de sobrancelhas sob medida para você.</p>
@@ -63,25 +64,25 @@
         <img src="Imagem cilios/logo-whatsapp.png" alt="">
     </div> 
     </section>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1529.2838516400236!2d-38.40198790639889!3d-12.789414571756181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1spt-BR!2sbr!4v1738022163756!5m2!1spt-BR!2sbr"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14628.388719220982!2d-38.41693261768305!3d-12.784152657053896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161343ce50a9e5%3A0x947375afe27a85b3!2sKelly%20c%C3%ADlios%20makeup!5e1!3m2!1spt-BR!2sbr!4v1738380769936!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
 
 
     <footer class="criado">
         <p>Projeto desenvolvindo por Kaio arruda.</p>
-        <div>
-            <img src="Imagem cilios/linkedIn.png"  alt="linkedIn">
-        </div>  
     </footer>
 
-    <script>
-       function clickMenu() {
-            if (itens.style.display == 'block') {
-                itens.style.display = 'none'
-            } else {
-                itens.style.display = 'block'
-            }
+   <script> 
+
+    function clickMenu() {
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
         }
-    </script>
+       }
+       
+   </script>
 </body>
 </html>

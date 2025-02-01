@@ -1,12 +1,17 @@
-@media screen and (min-width: 768px) {
-  i#burguer{
-    display: none;
-  }
+/* celulares */
+@media (min-width: 768px){
+    i#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
 }
-
-
-
-
-
-
-
+@media (max-width:769px){
+    .ceo > h5 {
+        font-size: 12px;
+    }
+    .ceo > p{
+        font-size: 11px;
+    }
+}
