@@ -1,0 +1,194 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  
+}
+html {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+header > img {
+    height: 80px;
+    max-width: 80px;
+    border-radius: 100rem;
+}
+i#burguer{
+    color: black;
+    display: block;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+}
+i#burguer:hover{
+    color: gray;
+}
+menu{
+    display: none;
+}
+
+ul {
+    display: flex;
+    padding: 30px;
+    justify-content:center;
+    list-style: none;
+}
+
+menu > ul > li > a {
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+ ul li a:hover{
+    border-radius: 0px;
+    background-color: rgb(254, 220, 230);
+}
+
+
+.hero img {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-position-y: 50px;
+} 
+
+.ceo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.ceo > h5 {   
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 30px;
+ }
+.ceo > p{
+    margin: 10px;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    text-align: center;
+}
+
+.ceo hr {
+    margin: 20px;
+    width: 250px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 70px;
+    border: none;
+}
+
+
+.conteiner {
+    width: 100%;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+
+ }
+ .conteiner ul li img{
+     height: 250px;
+     width: 360px;
+     padding: 10px;
+     cursor: pointer;
+     text-decoration: none;
+     align-items: center,center;
+     background-size: cover;
+     background-clip: content-box;
+     background-position: center;
+ }
+.contato {
+    background-color: #191c03;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 20px;
+    background-color:rgb(254, 220, 230) ;
+    padding: 40px;
+}
+.contato p {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.contato hr {
+    width: 200px;
+    height: 2px;
+    
+    background-color: black;
+    margin-bottom: 60px;
+    margin: 15px;
+    border: none;
+}
+.contato > ul > li{
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+}
+.contato div{
+    display: flex;
+}
+.contato > div img{
+    
+    justify-content: center;
+    align-items: center;
+
+    width: 70px;
+    height: 50px;
+    margin: 18px;
+    border-radius: 90%;
+}
+
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1350px;
+    height: 350px;
+}
+.criado {
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(254, 220, 230) ;
+    
+}
+.criado p{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.criado div{
+    display: flex;
+    flex-direction: column;
+}
+.criado img {
+    margin-left: 370px;
+    width: 80px;
+    height: 40px;
+}
