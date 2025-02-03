@@ -9,9 +9,9 @@
 }
 
 /* Celulares e modenos */
-
+       
 @media (max-width: 820px){
-   
+  
     .ceo {
         display: flex; 
     }
@@ -56,3 +56,4 @@
 }
 
 
+ 
